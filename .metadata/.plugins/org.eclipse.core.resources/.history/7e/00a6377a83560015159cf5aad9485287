@@ -1,0 +1,39 @@
+
+import java.lang.Math;
+
+public class Point2D {
+	int x;
+	int y;
+
+	public Point2D(){
+		this.x =0;
+		this.y =0;
+
+	}
+	public Point2D(int x, int y){
+		this.x = x;	 
+		this.y = y;
+	}
+
+	public Point2D add(int dx, int dy){
+		Point2D p = new Point2D(x +dx,y +dy); 
+		return p;
+	}
+
+	public void translate(Point2D l){
+		 this.x += l.x;
+		 this.y += l.y;
+
+	}
+
+	public int distance(int x, int y)
+	{
+		int power = 2;
+(sqrt((pow(this.x-x), power) +(pow(this.y-y), power)));
+	}
+	public static void main(String[] args) {
+
+
+	}
+
+}

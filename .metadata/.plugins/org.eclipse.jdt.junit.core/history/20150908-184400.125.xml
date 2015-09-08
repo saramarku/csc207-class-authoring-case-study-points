@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Point2DTest" project="Point2D.java" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="Point2DTest" time="0.007">
+    <testcase name="testAdd" classname="Point2DTest" time="0.003"/>
+    <testcase name="testToString" classname="Point2DTest" time="0.0"/>
+    <testcase name="testDistance" classname="Point2DTest" time="0.002"/>
+    <testcase name="testTranslate" classname="Point2DTest" time="0.002"/>
+  </testsuite>
+</testrun>
